@@ -1,0 +1,67 @@
+.container {
+  max-width: max-content;
+  padding: 50px 8.2rem 50px 8.3rem;
+  margin: 0 auto;
+  background-image: url("/images/CybervieImages/Reason.png");
+  background-size: 100% 100%;
+  background-size: cover;
+  color: #fff;
+  margin-bottom: 6rem;
+}
+/* linear-gradient(to right bottom, rgba(22, 34, 22, 0.503), rgba(22, 30, 22, 0.503)) */
+.row {
+  --bs-gutter-x: 10.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.reason-image {
+  display: inline-block;
+  border-radius: 100px;
+  overflow: hidden;
+  background-color: white;
+  border: 8px solid transparent;
+  padding: 0px 1px;
+}
+
+.reason-title {
+  font-size: 2.8rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.reason-description {
+  font-size: 2rem;
+}
+
+.my-3 {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  color: #333;
+  /* color: #45260a; */
+  /* color: #343a40; */
+  letter-spacing: -0.5px;
+}
+
+.heading-secondary {
+  font-size: 5rem;
+  line-height: 1.2;
+  margin-bottom: 3rem;
+  text-transform: none;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center-text {
+  text-align: center;
+  /* padding-left: 40rem; */
+}

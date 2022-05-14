@@ -1,0 +1,164 @@
+.row {
+  --bs-gutter-x: 0rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+  gap: 0.1rem;
+  justify-content: space-evenly;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+/**************************/
+/*     Card Container     */
+/**************************/
+.my-3 {
+  margin-top: 0rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.section-cards {
+  border-color: #66edde;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.section-cards:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+/**************************/
+/*         Card           */
+/**************************/
+.card-body {
+  flex: 1 1 auto;
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.card-description {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.card-title {
+  font-size: 25px;
+  color: rgb(59, 60, 63);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/**************************/
+/*     Card Tags          */
+/**************************/
+.card-tags {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0rem;
+  justify-content: space-between;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 20px;
+  text-transform: none;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 500;
+}
+
+.h3 {
+  padding: 0rem 0;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  text-transform: none;
+  font-family: sans-serif;
+  color: #494d4a;
+}
+
+.tag--vegan {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: inherit;
+  justify-content: space-between;
+  gap: 0.6rem;
+  color: rgb(53, 239, 161);
+}
+
+.tag--paleo {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0rem;
+  color: rgb(53, 239, 161);
+}
+
+.tag--Book {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: self-end;
+  justify-content: space-between;
+  gap: 0rem;
+}
+
+.BookNow-link {
+  font-size: 25px;
+  color: #185373;
+  cursor: pointer;
+}
+
+.BookNow-link:link,
+.BookNow-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: whitesmoke;
+  transition: all 0.3s;
+}
+
+.BookNow-link:hover,
+.BookNow-link:active {
+  color: #555;
+}
+
+.Price {
+  font-size: 23px;
+  color: #71b8b4;
+}
+
+/**************************/
+/*   Products component   */
+/**************************/
+.center-text {
+  text-align: center;
+}
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 3rem auto auto auto;
+}
+
+.heading-secondary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+  font-size: 5rem;
+  line-height: 1.2;
+  margin-bottom: 4.6rem;
+  text-transform: none;
+  color: #1867ad;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,145 @@
+.navbar {
+  font-size: 1.875rem;
+  font-weight: 900;
+  text-transform: none;
+  gap: 0.4rem;
+  grid-gap: 1px;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  position: fixed;
+  top: 0;
+  background-color: transparent;
+  z-index: 2;
+  width: 100%;
+}
+
+.m-auto {
+  margin: auto !important;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  gap: 48px;
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+
+.nav-link,
+.nav-link:visited {
+  text-decoration: none;
+  color: #282829 !important;
+  transition: all 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: rgb(101, 104, 190) !important;
+}
+
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 2rem;
+  text-decoration: none;
+  white-space: nowrap;
+  color: black;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #213b63;
+  border-color: #1a1a1a;
+  text-transform: none;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2.1rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+}
+
+.btn--form {
+  background-color: #213b63;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: rgb(101, 104, 190);
+}
+
+/**************************/
+/* GENRAL REUSABLE COMPONENTS */
+/**************************/
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  color: #333;
+  /* color: #45260a; */
+  /* color: #343a40; */
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+  text-transform: none;
+  color: rgb(102, 81, 238);
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+@media only screen and (min-width: 992px) {
+  .nav-link {
+    padding-right: 5.5rem;
+    padding-left: 0.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    font-size: 2.1rem;
+    font-weight: bold;
+    gap: 0px;
+  }
+}
