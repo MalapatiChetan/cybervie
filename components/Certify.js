@@ -30,7 +30,7 @@ const Certify = () => {
         </div>
         <div className={`${styles["certificate"]}`}>
           <Image
-            src="/images/CybervieImages/certificate.png"
+            src="/images/CybervieImages/Certificate.png"
             alt="certificate"
             width="770rem"
             height="560rem"
