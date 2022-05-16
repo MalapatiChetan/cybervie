@@ -6,8 +6,8 @@
   grid-gap: 1px;
   align-items: flex-start;
   justify-content: space-around;
-  padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0rem;
   position: fixed;
   top: 0;
   background-color: transparent;
@@ -43,18 +43,15 @@
 }
 
 .navbar-brand {
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 2rem;
+  padding-bottom: 0.1rem;
   text-decoration: none;
   white-space: nowrap;
-  color: black;
+  /* height: auto; */
 }
 
 .btn-primary {
   color: #fff;
-  background-color: #213b63;
+  background-color: #225785;
   border-color: #1a1a1a;
   text-transform: none;
 }
@@ -66,7 +63,7 @@
   text-decoration: none;
   font-size: 2.1rem;
   font-weight: 600;
-  padding: 1rem 2rem;
+  padding: 1.3rem 3rem;
   border-radius: 25px;
   border: none;
   cursor: pointer;
@@ -75,10 +72,10 @@
 }
 
 .btn--form {
-  background-color: #213b63;
+  /* background-color: #213b63; */
   color: #fdf2e9;
   align-self: end;
-  padding: 1.2rem;
+  /* padding: 1.2rem; */
 }
 
 .btn--form:hover {

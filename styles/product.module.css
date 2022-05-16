@@ -45,15 +45,17 @@
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  color: #202120;
 }
 
 .card-title {
   font-size: 25px;
   color: rgb(59, 60, 63);
-  font-weight: 600;
+  font-weight: 550;
   margin-bottom: 1.5rem;
   text-align: left;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.4px;
 }
 
 /**************************/
@@ -115,7 +117,7 @@
 
 .BookNow-link {
   font-size: 25px;
-  color: #185373;
+  color: #1e6890;
   cursor: pointer;
 }
 

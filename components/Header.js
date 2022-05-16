@@ -1,6 +1,7 @@
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import Link from "next/link";
 import styles from "../styles/Header.module.css";
+import Image from "next/image";
 
 const Header = () => {
   return (
@@ -15,7 +16,12 @@ const Header = () => {
           <Container>
             <Link href="/">
               <Navbar.Brand className={`${styles["navbar-brand"]}`} href="/">
-                CYBERVIE
+                <Image
+                  src="/images/CybervieImages/Logo.gif"
+                  alt="Web Logo"
+                  width={110}
+                  height={45}
+                />
               </Navbar.Brand>
             </Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -38,15 +44,16 @@ const Header = () => {
                 </Link>
               </Nav>
               <Nav>
-                <Button
-                  className={`${styles["btn-primary"]} ${styles["btn"]} ${styles["btn--form"]}`}
-                  href="/Login"
-                  type="button"
-                  variant="primary"
-                  size="sm"
-                >
-                  Login
-                </Button>
+                <Link href="/Login">
+                  <Button
+                    className={`${styles["btn-primary"]} ${styles["btn"]} ${styles["btn--form"]}`}
+                    type="button"
+                    variant="primary"
+                    size="sm"
+                  >
+                    Login
+                  </Button>
+                </Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
