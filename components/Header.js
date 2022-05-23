@@ -31,15 +31,15 @@ const Header = () => {
                 <Link className={`${styles["nav-link"]}`} href="/">
                   <a className={`${styles["a"]}`}>Home</a>
                 </Link>
-                <Link className={`${styles["nav-link"]}`} href="/about">
+                <Link className={`${styles["nav-link"]}`} href="/About">
                   <a className={`${styles["a"]}`}>About Us</a>
                 </Link>
-                <Link className={`${styles["nav-link"]}`} href="/faq">
+                <Link className={`${styles["nav-link"]}`} href="/Faq">
                   <a className={`${styles["a"]}`}>FAQ</a>
                 </Link>
               </Nav>
               <Nav>
-                <Link href="/login">
+                <Link href="/Login">
                   <Button
                     className={`${styles["btn-primary"]} ${styles["btn"]} ${styles["btn--form"]}`}
                     type="button"
