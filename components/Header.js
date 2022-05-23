@@ -28,20 +28,14 @@ const Header = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className={`${styles["m-auto"]} ${styles["navbar-nav"]}`}>
-                <Link href="/">
-                  <Nav.Link className={`${styles["nav-link"]}`} href="/">
-                    Home
-                  </Nav.Link>
+                <Link className={`${styles["nav-link"]}`} href="/">
+                  <a className={`${styles["a"]}`}>Home</a>
                 </Link>
-                <Link href="/about">
-                  <Nav.Link className={`${styles["nav-link"]}`} href="/about">
-                    About Us
-                  </Nav.Link>
+                <Link className={`${styles["nav-link"]}`} href="/about">
+                  <a className={`${styles["a"]}`}>About Us</a>
                 </Link>
-                <Link href="/faq">
-                  <Nav.Link className={`${styles["nav-link"]}`} href="/faq">
-                    FAQ
-                  </Nav.Link>
+                <Link className={`${styles["nav-link"]}`} href="/faq">
+                  <a className={`${styles["a"]}`}>FAQ</a>
                 </Link>
               </Nav>
               <Nav>
