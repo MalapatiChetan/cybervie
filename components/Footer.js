@@ -1,17 +1,19 @@
-import styles from "../styles/Footer.module.css";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { faYoutube } from "@fortawesome/free-brands-svg-icons";
+import {
+  faTwitter,
+  faFacebook,
+  faInstagram,
+  faWhatsapp,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import { faBorderStyle } from "@fortawesome/free-solid-svg-icons";
+import styles from "../styles/Footer.module.css";
+import { Fragment } from "react";
 
 const Footer = () => {
   return (
-    <>
+    <Fragment>
       <Container className={`${styles["container"]}`}>
         <Row className={`${styles["row"]}`}>
           <Col sm={4}>
@@ -180,27 +182,6 @@ const Footer = () => {
                         icon={faTwitter}
                         className={`${styles["fa-xl"]}`}
                       />
-
-                      {/* <FontAwesomeIcon
-                        icon={faTwitter}
-                        className="fa-check-circle-o fa-2x "
-                      /> */}
-
-                      {/* <Image
-                        className="fa-9x"
-                        src="/svg/twitter.svg"
-                        alt="Twitter Logo"
-                        width={30}
-                        height={30}
-                      /> */}
-
-                      {/* <Image
-                        className={`${styles["social-icons"]}`}
-                        src="/images/CybervieIcons/Frame-4.png"
-                        alt="twitter logo"
-                        width={20}
-                        height={20}
-                      /> */}
                     </a>
                   </li>
                   <li>
@@ -209,12 +190,6 @@ const Footer = () => {
                         icon={faFacebook}
                         className={`${styles["fa-xl"]}`}
                       />
-                      {/* <Image
-                        src="/svg/facebook.svg"
-                        alt="Facebook Logo"
-                        width={30}
-                        height={30}
-                      /> */}
                     </a>
                   </li>
                   <li>
@@ -223,12 +198,6 @@ const Footer = () => {
                         icon={faInstagram}
                         className={`${styles["fa-xl"]}`}
                       />
-                      {/* <Image
-                        src="/svg/instagram.svg"
-                        alt="Insta Logo"
-                        width={30}
-                        height={30}
-                      /> */}
                     </a>
                   </li>
                   <li>
@@ -237,12 +206,6 @@ const Footer = () => {
                         icon={faWhatsapp}
                         className={`${styles["fa-xl"]}`}
                       />
-                      {/* <Image
-                        src="/svg/whatsapp.svg"
-                        alt="whatsapp Logo"
-                        width={30}
-                        height={30}
-                      /> */}
                     </a>
                   </li>
                   <li>
@@ -251,12 +214,6 @@ const Footer = () => {
                         icon={faYoutube}
                         className={`${styles["fa-xl"]}`}
                       />
-                      {/* <Image
-                        src="/svg/youtube.svg"
-                        alt="Youtube Logo"
-                        width={30}
-                        height={30}
-                      /> */}
                     </a>
                   </li>
                 </ul>
@@ -384,7 +341,7 @@ const Footer = () => {
           </p>
         </a>
       </div>
-    </>
+    </Fragment>
   );
 };
 

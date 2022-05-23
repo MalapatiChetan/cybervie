@@ -1,6 +1,5 @@
 .navbar {
   font-size: 1.875rem;
-  font-weight: 900;
   text-transform: none;
   gap: 0.4rem;
   grid-gap: 1px;
@@ -27,7 +26,6 @@
   list-style: none;
   gap: 48px;
   font-size: 2.1rem;
-  font-weight: bold;
 }
 
 .nav-link,
@@ -46,7 +44,6 @@
   padding-bottom: 0.1rem;
   text-decoration: none;
   white-space: nowrap;
-  /* height: auto; */
 }
 
 .btn-primary {
@@ -72,10 +69,8 @@
 }
 
 .btn--form {
-  /* background-color: #213b63; */
   color: #fdf2e9;
   align-self: end;
-  /* padding: 1.2rem; */
 }
 
 .btn--form:hover {
@@ -84,42 +79,8 @@
 }
 
 /**************************/
-/* GENRAL REUSABLE COMPONENTS */
+/*    Media Queries       */
 /**************************/
-
-.heading-primary,
-.heading-secondary,
-.heading-tertiary {
-  font-weight: 700;
-  color: #333;
-  /* color: #45260a; */
-  /* color: #343a40; */
-  letter-spacing: -0.5px;
-}
-
-.heading-primary {
-  font-size: 5.2rem;
-  line-height: 1.05;
-  margin-bottom: 3.2rem;
-}
-
-.heading-secondary {
-  font-size: 4.4rem;
-  line-height: 1.2;
-  margin-bottom: 9.6rem;
-  text-transform: none;
-  color: rgb(102, 81, 238);
-}
-
-.heading-tertiary {
-  font-size: 3rem;
-  line-height: 1.2;
-  margin-bottom: 3.2rem;
-}
-
-.center-text {
-  text-align: center;
-}
 
 @media only screen and (min-width: 992px) {
   .nav-link {
@@ -136,7 +97,6 @@
     margin-bottom: 0;
     list-style: none;
     font-size: 2.1rem;
-    font-weight: bold;
     gap: 0px;
   }
 }

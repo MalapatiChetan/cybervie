@@ -1,6 +1,5 @@
 import styles from "../styles/Hero.module.css";
-import { Container } from "react-bootstrap";
-import { Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 const Hero = () => {
   return (
     <Container className={`${styles["container"]}`}>
@@ -13,7 +12,7 @@ const Hero = () => {
       </Row>
 
       <Row>
-        <Col md={{ span: 4, offset: 1 }}>
+        <Col md={{ span: 5, offset: 1 }}>
           <h1 className={`${styles["hero-description"]}`}>
             Spend your time wisely by skilling up and accelerate your career to
             the next level.

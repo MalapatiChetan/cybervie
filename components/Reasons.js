@@ -1,10 +1,8 @@
-import { Card } from "react-bootstrap";
 import Image from "next/image";
-import { Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import styles from "../styles/Reasons.module.css";
-import { Container } from "react-bootstrap";
 
-const Reasons = ({ reason }) => {
+const Reasons = () => {
   return (
     <Container className={`${styles["container"]}`}>
       <h2 className={`${styles["heading-secondary"]} ${styles["center-text"]}`}>

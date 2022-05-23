@@ -2,10 +2,11 @@ import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import Link from "next/link";
 import styles from "../styles/Header.module.css";
 import Image from "next/image";
+import { Fragment } from "react";
 
 const Header = () => {
   return (
-    <>
+    <Fragment>
       <header>
         <Navbar
           className={styles.navbar}
@@ -32,19 +33,19 @@ const Header = () => {
                     Home
                   </Nav.Link>
                 </Link>
-                <Link href="/About">
-                  <Nav.Link className={`${styles["nav-link"]}`} href="/About">
+                <Link href="/about">
+                  <Nav.Link className={`${styles["nav-link"]}`} href="/about">
                     About Us
                   </Nav.Link>
                 </Link>
-                <Link href="/Faq">
-                  <Nav.Link className={`${styles["nav-link"]}`} href="/Faq">
+                <Link href="/faq">
+                  <Nav.Link className={`${styles["nav-link"]}`} href="/faq">
                     FAQ
                   </Nav.Link>
                 </Link>
               </Nav>
               <Nav>
-                <Link href="/Login">
+                <Link href="/login">
                   <Button
                     className={`${styles["btn-primary"]} ${styles["btn"]} ${styles["btn--form"]}`}
                     type="button"
@@ -59,7 +60,7 @@ const Header = () => {
           </Container>
         </Navbar>
       </header>
-    </>
+    </Fragment>
   );
 };
 

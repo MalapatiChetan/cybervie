@@ -10,6 +10,8 @@
   justify-content: space-evenly;
   flex-shrink: 1;
   flex-grow: 1;
+  /* padding-left: 9rem;
+  padding-right: 9rem; */
 }
 
 /**************************/
@@ -22,6 +24,7 @@
 
 .section-cards {
   border-color: #66edde;
+  border-width: 2px;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
   overflow: hidden;
@@ -46,6 +49,7 @@
   align-items: center;
   gap: 1.6rem;
   color: #202120;
+  font-weight: normal;
 }
 
 .card-title {
@@ -68,7 +72,7 @@
   gap: 0rem;
   justify-content: space-between;
   text-align: left;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .tag {
@@ -159,7 +163,7 @@
   letter-spacing: -0.5px;
   font-size: 5rem;
   line-height: 1.2;
-  margin-bottom: 4.6rem;
+  margin-bottom: 5rem;
   text-transform: none;
   color: #1867ad;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;

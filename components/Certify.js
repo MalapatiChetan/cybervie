@@ -1,6 +1,5 @@
-import styles from "../styles/Certify.module.css";
 import Image from "next/image";
-import { Container, Row, Col } from "react-bootstrap";
+import styles from "../styles/Certify.module.css";
 
 const Certify = () => {
   return (
@@ -22,7 +21,6 @@ const Certify = () => {
         <div className={`${styles["badge"]}`}>
           <Image
             src="/images/CybervieImages/Badge.png"
-            //className={`${styles["badge"]}`}
             alt="Avocado Salad"
             width="140px"
             height="140px"
